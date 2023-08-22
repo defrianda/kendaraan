@@ -9,5 +9,6 @@ class Mobil extends Kendaraan
 {
     use HasFactory;
 
+    protected $collection = 'mobil'; // Set the collection name
     protected $fillable = ['tahun_keluaran', 'warna', 'harga', 'mesin', 'kapasitas_penumpang', 'tipe'];
 }
